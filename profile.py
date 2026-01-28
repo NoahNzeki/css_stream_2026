@@ -8,5 +8,5 @@ st.header("Research Interests")
 st.write("- Theoretical and Computational Physics\n- Quantum Computing\n- Data Science")
 
 st.header("Contact")
-st.write("Email: noahnzeki@yandex.com | GitHub: [Noah William](https://github.com/nnw)")
+st.write("Email: noahnzeki@yandex.com  |  GitHub: [Noah William](https://github.com/nnw)")
 
