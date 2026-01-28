@@ -6,4 +6,7 @@ This repo is created for learning how to share research propfile during Coding S
 **Prof. Binjamin Barsh**
 
 ### Institution
-University of Jobug
+**UJ**
+
+### Date
+*28/01/2026*
