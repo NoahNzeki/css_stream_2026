@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Noah Nzeki William - Researcher Profile")
+st.title("Noah Nzeki William - Profile")
 st.header("About Me")
 st.write("Hi, I'm William. I do research in Theoretical Physics and Quantum Computing.")
 
