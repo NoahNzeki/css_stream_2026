@@ -1,18 +1,6 @@
-# import streamlit as st
-#
-# st.title("Noah Nzeki William - Researcher Profile")
-# st.header("About Me")
-# st.write("Hi, I'm William. I do research in Theoretical Physics and Quantum Computing.")
-#
-# st.header("Research Interests")
-# st.write("- Theoretical and Computational Physics\n- Quantum Computing\n- Data Science")
-#
-# st.header("Contact")
-# st.write("Email: noahnzeki@yandex.com")
-# st.write("GitHub: [Noah William](https://github.com/nnw)")
-
-
 import streamlit as st
+import requests
+from streamlit_lottie import st_lottie
 
 # Page config
 st.set_page_config(
@@ -21,7 +9,7 @@ st.set_page_config(
     layout="wide",
 )
 
-# Custom CSS (ONLY FIX ADDED: text color inside .card)
+# Custom CSS (text color fix and line-height)
 st.markdown(
     """
     <style>
@@ -38,10 +26,11 @@ st.markdown(
         border-radius: 12px;
         background-color: #f5f5f5;
         margin-bottom: 1rem;
-        color: #111 !important;   /* <-- FIX */
+        color: #111 !important;
+        line-height: 1.25;   /* ensures even spacing */
     }
     .card h4 {
-        color: #000 !important;  /* <-- FIX */
+        color: #000 !important;
     }
     </style>
     """,
@@ -50,12 +39,14 @@ st.markdown(
 
 # Sidebar
 with st.sidebar:
-    st.image("nnw2.png", width=200)
+    st.image("nnw2.png", width=150)
     st.markdown("### Noah Nzeki William")
     st.write("Theoretical Physics & Quantum Computing")
     st.markdown("---")
+    st.markdown("## 📫 Contact")
     st.markdown("📧 noahnzeki@yandex.com")
-    st.markdown("🐙 [GitHub](https://github.com/nnw)")
+    st.markdown("## 🐙 GitHub")
+    st.markdown("[GitHub](https://github.com/nnw)")
 
 # Main layout
 col1, col2 = st.columns([1, 2])
@@ -77,10 +68,22 @@ with col2:
         computational tools for modern research.
         """
     )
+ 
+    url = "https://assets2.lottiefiles.com/packages/lf20_u4yrau.json"  # Quantum circuit example
+    response = requests.get(url)
+    lottie_json = response.json()
 
+    st_lottie(
+        lottie_json,
+        speed=1,
+        loop=True,
+        quality="high",
+        height=100
+    )
 st.markdown("---")
 
 # About section
+# ======================
 st.markdown("## 🧠 About Me")
 st.markdown(
     """
@@ -91,6 +94,8 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+st.markdown("---")
 
 # Research Interests
 st.markdown("## 🔬 Research Interests")
@@ -123,7 +128,7 @@ with c3:
     st.markdown(
         """
         <div class="card">
-        <h4>📊 Data Science (Interested)</h4>
+        <h4>📊 Data Science (Intrested)</h4>
         Machine learning and scientific data analysis.
         </div>
         """,
@@ -131,12 +136,25 @@ with c3:
     )
 
 # Contact
-st.markdown("---")
-st.markdown("## 📫 Contact")
-
-st.write("📧 Email: noahnzeki@yandex.com")
-st.write("🐙 GitHub: https://github.com/nnw")
+# st.markdown("---")
+# st.markdown("## 📫 Contact")
+#
+# st.write("📧 Email: noahnzeki@yandex.com")
+# # st.write("🐙 GitHub: https://github.com/nnw")
 
 st.markdown("---")
 st.caption("Built with Streamlit 🚀")
+
+url = "https://assets2.lottiefiles.com/packages/lf20_u4yrau.json"  # Quantum circuit example
+response = requests.get(url)
+lottie_json = response.json()
+
+st_lottie(
+    lottie_json,
+    speed=1,
+    loop=True,
+    quality="high",
+    height=400
+)
+
 
