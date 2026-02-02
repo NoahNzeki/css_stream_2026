@@ -63,8 +63,8 @@ with col2:
 
     st.write(
         """
-        Hi, I'm William. I work at the intersection of **theoretical physics,
-        quantum computing**, and **data science**, with a focus on building
+        I work at the intersection of **theoretical physics,
+        quantum computing**, and **machine learning**, with a focus on building
         computational tools for modern research.
         """
     )
@@ -88,7 +88,7 @@ st.markdown("## 🧠 About Me")
 st.markdown(
     """
     <div class="card">
-    Passionate about mathematical modeling, quantum algorithms, and applying
+    I am passionate about mathematical modeling, quantum algorithms, and applying
     data-driven techniques to physical systems.
     </div>
     """,
