@@ -63,7 +63,7 @@ with col2:
 
     st.write(
         """
-        I work at the intersection of **theoretical physics,
+        I work on the intersection of **theoretical physics,
         quantum computing**, and **machine learning**, with a focus on building
         computational tools for modern research.
         """
