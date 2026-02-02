@@ -123,7 +123,7 @@ with c3:
     st.markdown(
         """
         <div class="card">
-        <h4>📊 Data Science (Intersted)</h4>
+        <h4>📊 Data Science (Interested)</h4>
         Machine learning and scientific data analysis.
         </div>
         """,
