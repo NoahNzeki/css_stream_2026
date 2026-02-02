@@ -45,8 +45,8 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("## 📫 Contact")
     st.markdown("📧 noahnzeki@yandex.com")
-    st.markdown("## 💻 GitHub")
-    st.markdown("🐙 [GitHub](https://github.com/nnw)")
+    st.markdown("## 🐙 GitHub")
+    st.markdown("🔗 [GitHub](https://github.com/nnw)")
 
 # Main layout
 col1, col2 = st.columns([1, 2])
