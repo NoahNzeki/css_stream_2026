@@ -39,7 +39,7 @@ st.markdown(
 
 # Sidebar
 with st.sidebar:
-    st.image("nnw2.png", width=150)
+    st.image("nnw3.png", width=150)
     st.markdown("### Noah Nzeki William")
     st.write("Theoretical Physics & Quantum Computing")
     st.markdown("---")
