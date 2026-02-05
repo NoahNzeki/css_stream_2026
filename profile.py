@@ -98,7 +98,8 @@ st.markdown(
 st.markdown("---")
 
 # Research Interests
-st.markdown("## 🔭 Research Interests")
+# st.markdown("## 🔭 Research Interests")
+st.markdown(r"## $$\langle \psi \mid \text{Research Interest} \mid \psi \rangle$$")
 
 c1, c2, c3 = st.columns(3)
 
