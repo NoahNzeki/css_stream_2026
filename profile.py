@@ -84,7 +84,7 @@ st.markdown("---")
 
 # About section
 # ======================
-st.markdown("## 🧠 About Me")
+st.markdown("## 👤 About Me")
 st.markdown(
     """
     <div class="card">
@@ -98,7 +98,7 @@ st.markdown(
 st.markdown("---")
 
 # Research Interests
-st.markdown("## 🔬 Research Interests")
+st.markdown("## 🔭 Research Interests")
 
 c1, c2, c3 = st.columns(3)
 
